@@ -1,0 +1,21 @@
+Droid Concepts
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To read more Git and Repo please see http://source.android.com/source/git-repo.html
+
+If you would like to build your own copy of the Droid Concepts ROM then use the following command to initiate your repo:
+
+>     repo init -u git://github.com/DroidConcepts/platform_manifest.git
+
+When that finishes:
+
+>     repo sync
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+For more info you can ask for help in any of the following locations:
+
+>     http://www.droidforums.net/forum/droid-concepts/
+>     http://www.mydroidworld.com/forums/woodyman/
+>     http://droidconcepts.forumotion.com/
+
+You may also email one of the members of the Droid Concepts team using the contact info found here:
+
+>     https://sites.google.com/site/teamdroidconcepts/the-team
