@@ -4,7 +4,7 @@ To read more Git and Repo please see http://source.android.com/source/git-repo.h
 
 If you would like to build your own copy of the Droid Concepts ROM then use the following command to initiate your repo:
 
->     repo init -u git://github.com/DroidConcepts/platform_manifest.git -b froyo
+>     repo init -u git://github.com/DroidConcepts/android_manifest.git -b froyo
 
 When that finishes:
 
