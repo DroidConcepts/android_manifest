@@ -7,13 +7,13 @@
   <remote  name="github" 
            fetch="git://github.com/" />
 
-  <default revision="froyo"
+  <default revision="android-2.2.2_r1"
            remote="korg" />
 
-<project path="android" name="DroidConcepts/android_android" remote="github" />
+<project path="android" name="DroidConcepts/android_android" remote="github" revision="froyo"/>
 
 <project path="build" name="DroidConcepts/android_build" remote="github">
-    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile"  revision="froyo" />
 </project>
 
   <project path="bionic" name="platform/bionic" />
@@ -27,7 +27,7 @@
   <project path="development" name="platform/development" />
 
   <project path="device/common" name="device/common" />
-<project path="device/motorola/sholes" name="DroidConcepts/android_device_motorola_sholes" remote="github" />
+<project path="device/motorola/sholes" name="DroidConcepts/android_device_motorola_sholes" remote="github"  revision="froyo" />
   <project path="device/sample" name="device/sample" />
 
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -107,10 +107,10 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-<project path="frameworks/base" name="DroidConcepts/android_frameworks_base" remote="github"/>
+<project path="frameworks/base" name="DroidConcepts/android_frameworks_base" remote="github" revision="froyo" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-<project path="frameworks/policies/base" name="DroidConcepts/android_frameworks_policies_base" remote="github" />
+<project path="frameworks/policies/base" name="DroidConcepts/android_frameworks_policies_base" remote="github" revision="froyo" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -181,11 +181,11 @@
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="DroidConcepts/android_system_extras" remote="github" />
+<project path="system/extras" name="DroidConcepts/android_system_extras" remote="github"  revision="froyo" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-<project path="vendor/DroidConcepts" name="DroidConcepts/android_vendor_DroidConcepts" remote="github" />
+<project path="vendor/DroidConcepts" name="DroidConcepts/android_vendor_DroidConcepts" remote="github"  revision="froyo" />
 
 </manifest>
