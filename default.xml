@@ -26,9 +26,9 @@
   <project path="dalvik" name="platform/dalvik" revision="froyo" />
   <project path="development" name="platform/development" revision="froyo" />
 
-  <project path="device/common" name="device/common" />
+  <project path="device/common" name="device/common" revision="froyo" />
 <project path="device/motorola/sholes" name="DroidConcepts/android_device_motorola_sholes" remote="github"  revision="froyo" />
-  <project path="device/sample" name="device/sample" />
+  <project path="device/sample" name="device/sample" revision="froyo" />
 
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
