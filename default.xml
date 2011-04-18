@@ -19,8 +19,8 @@
   <project path="bionic" name="platform/bionic" revision="froyo" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="froyo" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="froyo" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="froyo" />
 
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
