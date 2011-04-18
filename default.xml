@@ -22,9 +22,9 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="froyo" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="froyo" />
 
-  <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
+  <project path="cts" name="platform/cts" revision="froyo" />
+  <project path="dalvik" name="platform/dalvik" revision="froyo" />
+  <project path="development" name="platform/development" revision="froyo" />
 
   <project path="device/common" name="device/common" />
 <project path="device/motorola/sholes" name="DroidConcepts/android_device_motorola_sholes" remote="github"  revision="froyo" />
