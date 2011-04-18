@@ -7,28 +7,28 @@
   <remote  name="github" 
            fetch="git://github.com/" />
 
-  <default revision="android-2.2.2_r1"
+  <default revision="froyo"
            remote="korg" />
 
-<project path="android" name="DroidConcepts/android_android" remote="github" revision="froyo"/>
+<project path="android" name="DroidConcepts/android_android" remote="github" />
 
-<project path="build" name="DroidConcepts/android_build" remote="github" revision="froyo">
+<project path="build" name="DroidConcepts/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 
   <project path="bionic" name="platform/bionic" revision="froyo" />
 
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="froyo" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="froyo" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="froyo" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="cts" name="platform/cts" revision="froyo" />
-  <project path="dalvik" name="platform/dalvik" revision="froyo" />
-  <project path="development" name="platform/development" revision="froyo" />
+  <project path="cts" name="platform/cts" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="development" name="platform/development" />
 
-  <project path="device/common" name="device/common" revision="froyo" />
+  <project path="device/common" name="device/common" />
 <project path="device/motorola/sholes" name="DroidConcepts/android_device_motorola_sholes" remote="github"  revision="froyo" />
-  <project path="device/sample" name="device/sample" revision="froyo" />
+  <project path="device/sample" name="device/sample" />
 
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
