@@ -131,7 +131,7 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="/platform/packages/apps/Contacts" revison="froyo-release" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revison="froyo-release" />
 <project path="packages/apps/DCWallpapers" name="DroidConcepts/android_packages_apps_DCWallpapers" remote="github" revision="master" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
