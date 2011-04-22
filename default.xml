@@ -128,7 +128,7 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-<project path="packages/apps/Calendar" name="DroidConcepts/packages_apps_Calendar" remote="github" />
+<project path="packages/apps/Calendar" name="DroidConcepts/android_packages_apps_Calendar" remote="github" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
 <project path="packages/apps/Contacts" name="DroidConcepts/android_packages_apps_Contacts" remote="github" />
