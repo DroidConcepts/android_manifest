@@ -181,7 +181,7 @@
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
+<project path="system/core" name="DroidConcepts/android_system_core" remote="github" />
   <project path="system/extras" name="platform/system/extras" />
 <project path="system/extras/su" name="ChainsDD/su-binary" remote="github"  revision="master" />
   <project path="system/netd" name="platform/system/netd" />
