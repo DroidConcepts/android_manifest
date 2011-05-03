@@ -7,7 +7,7 @@
   <remote  name="github" 
            fetch="git://github.com/" />
 
-  <default revision="froyo"
+  <default revision="refs/tags/android-2.2.2_r1"
            remote="korg" />
 
 <project path="android" name="DroidConcepts/android_android" remote="github" revision="froyo" />
