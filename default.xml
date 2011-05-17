@@ -135,7 +135,6 @@
 <project path="packages/apps/DCWallpapers" name="DroidConcepts/android_packages_apps_DCWallpapers" remote="github" revision="master" />
 <project path="packages/apps/DeskClock" name="DroidConcepts/android_packages_apps_DeskClock" remote="github" revision="froyo" />
 <project path="packages/apps/DroidConceptsSettings" name="DroidConcepts/android_packages_apps_DroidConceptsSettings" remote="github" revision="froyo" />
-<project path="packages/apps/DSPManager" name="DroidConcepts/android_packages_apps_DSPManager" remote="github" revision="froyo" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
 <project path="packages/apps/FileMananger" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
