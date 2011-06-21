@@ -132,6 +132,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
 <project path="packages/apps/Contacts" name="DroidConcepts/android_packages_apps_Contacts" remote="github" revision="froyo" />
+<project path="packages/apps/DCSHelper" name="DroidConcepts/android_packages_apps_DCSHelper" remote="github" revision="froyo" />
 <project path="packages/apps/DCWallpapers" name="DroidConcepts/android_packages_apps_DCWallpapers" remote="github" revision="master" />
 <project path="packages/apps/DeskClock" name="DroidConcepts/android_packages_apps_DeskClock" remote="github" revision="froyo" />
 <project path="packages/apps/DroidConceptsSettings" name="DroidConcepts/android_packages_apps_DroidConceptsSettings" remote="github" revision="froyo" />
