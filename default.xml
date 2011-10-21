@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com/platform/manifest"
            review="review.source.android.com" />
 
@@ -8,7 +8,7 @@
            fetch="git://github.com/" />
 
   <default revision="froyo"
-           remote="korg" />
+           remote="aosp" />
 
 <project path="android" name="DroidConcepts/android_android" remote="github" revision="froyo" />
 
