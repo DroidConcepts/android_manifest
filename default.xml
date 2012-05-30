@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
   <remote  name="aosp"
            fetch=".." />
+  <default revision="refs/tags/android-4.0.4_r1.2"
+           remote="aosp"
+           sync-j="4" />
 
-  <default revision="refs/tags/android-4.0.1_r1"
-           remote="aosp" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
 
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
+  <project path="device/moto/common" name="device/moto/common" />
+  <project path="device/moto/stingray" name="device/moto/stingray" />
+  <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
+  <project path="device/samsung/torospr" name="device/samsung/torospr" />
+  <project path="device/samsung/toro" name="device/samsung/toro" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/ti/panda" name="device/ti/panda" />
 
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -99,6 +102,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
+  <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -123,6 +127,7 @@
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -150,6 +155,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
+
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -163,6 +169,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
 
+
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -174,8 +181,6 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
 
-  <project path="libcore" name="platform/libcore" />
-  <project path="ndk" name="platform/ndk" />
 
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -233,8 +238,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
 
-  <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
@@ -242,5 +245,18 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
+
+
+  <project path="abi/cpp" name="platform/abi/cpp" />
+  <project path="bionic" name="platform/bionic" />
+  <project path="cts" name="platform/cts" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="development" name="platform/development" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="libcore" name="platform/libcore" />
+  <project path="ndk" name="platform/ndk" />
+  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="sdk" name="platform/sdk" />
+
 
 </manifest>
